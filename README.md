@@ -1,2 +1,4 @@
 # Predicting-College-Football-Winners-Using-CFBD-API
 Used the CFBD API to gather college football game and betting line data in order to try and create a model to predict winners.
+
+The CFBD API is a free API available at collegefootballdata.com. Using this API I was able to gather information on various college football games since 2015 such as the score, the name of each college, the conference of each college, who was home and away, and what week the game was. I also used the API to gather betting line data which showed which team was the betting line favorite before the game and by how much. Most of the notebook is me cleaning the data in order to get one clean concise dataset that combines the betting line data with the games data. After creating this dataset, I tested six different models to try and predict if the home team would win or not and found that the Random Forest model produced the best accuracy of 0.756.
